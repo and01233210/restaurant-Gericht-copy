@@ -1,6 +1,7 @@
 body {
   font-family: "Cormorant Upright";
 }
+
 :root {
   --accent-color: #dcca87;
   --title-color: #fff;
@@ -36,6 +37,7 @@ body {
   letter-spacing: 0.8px;
   text-transform: capitalize;
 }
+
 .header-menu {
   color: var(--title-color);
   font-family: Open Sans;
@@ -121,6 +123,65 @@ body {
   color: var(--dacground-color);
   font-size: 16px;
   font-weight: 700;
-  line-height: 17.5%;
+  line-height: 175%;
   letter-spacing: 0.64px;
+}
+
+/*book*/
+
+.book-reserv {
+  color: var(--title-color);
+font-variant-numeric: lining-nums tabular-nums;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+}
+
+.book-title {
+  color: var(--accent-color);
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+font-size: 64px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: 1.92px;
+text-transform: capitalize;
+}
+
+.book-option {
+  color: var(--text-color);
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+font-size: 16px;
+font-weight: 600;
+line-height: 175%;
+letter-spacing: 0.64px;
+text-transform: capitalize;
+}
+
+.book-but {
+  background-color: var(--accent-color);
+  color: #0C0C0C;
+font-size: 16px;
+font-weight: 700;
+line-height: 175%;
+letter-spacing: 0.64px;
+}
+
+/*menu*/
+
+.menu-link {
+  color:var(--title-color);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+}
+
+.menu-item:first-child a {
+  text-decoration-line: underline;
 }

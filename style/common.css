@@ -1,3 +1,15 @@
+:root {
+  
+    --accent-color: #dcca87;
+  --title-color: #fff;
+  --text-color: #aaa;
+  --background-color: #0c0b08;
+  --decor-color: #f5efdb;
+}
+body {
+  font-family: "Cormorant Upright";
+background-color: var(--background-color);
+}
 button {
     cursor: pointer;
 }

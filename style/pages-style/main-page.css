@@ -109,6 +109,41 @@
 
 /* about */
 
+.hero{
+  padding-bottom: 147px;
+}
+
+.hero-wraper{
+  display: flex;
+  gap: 180px;
+}
+
+.hero-box{
+  padding-top: 175px;
+  padding-bottom: 127px;
+}
+
+.hero-text{
+margin-bottom: 8px;
+}
+
+.hero-title{
+margin-top: 8px;
+}
+
+.hero-info{
+margin: 32px 0px;
+}
+
+.hero-pages{
+  text-align: center;
+  margin-top: 64px;
+}
+
+.hero-button{
+  background: var(--DCCA87, #DCCA87);
+  padding: 8px 32px;
+}
 .about-title {
   color: var(--accent-color);
   text-align: right;

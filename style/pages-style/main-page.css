@@ -1,3 +1,11 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  padding: 32px 0;
+}
 
 .header-title {
   color: var(--title-color);
@@ -6,6 +14,22 @@
   line-height: 1.3;
   letter-spacing: 1.76px;
   text-transform: uppercase;
+}
+
+.header-navigation {
+  margin-left: auto;
+}
+
+.header-list {
+  display: flex;
+  gap: 32px;
+  
+}
+
+.header-autorizations {
+  display: flex;
+  margin-left: 271px ;
+  margin-right:100px ;
 }
 
 .header-link {

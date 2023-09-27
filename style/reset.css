@@ -17,3 +17,8 @@ ul {
 a {
   text-decoration: none;
 }
+
+button {
+  border: none;
+  font-family: inherit;
+}
